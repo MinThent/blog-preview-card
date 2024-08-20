@@ -23,7 +23,7 @@ export default function BlogPreviewCard(props) {
         </div>
         <p className="text-sm">{publishedDate}</p>
         <div className="py-3">
-          <h4 className="pb-2 font-extrabold text-xl">{heading}</h4>
+          <h4 className="pb-2 font-extrabold text-xl hover:text-[#f4d04e] transition duration-200 hover:cursor-pointer">{heading}</h4>
           <p className="font-normal text-gray-500 text-sm">{headingContent}</p>
         </div>
         <div className="flex flex-row items-center gap-3 py-3">
